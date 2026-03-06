@@ -1,8 +1,11 @@
-# A React Searchbar
-You can search through "Spaceships" with filters of text(name) and/or by traits(engine, location). The filtering is done locally (front end), by javascript functions.  On each "spaceship" component exists a "star" button that allows the user to "save Spaceships" in a different component, so you can search under different criteria again. Responsive design.
+# A React Searchbar demo
+A React application that demonstrates client-side search and filtering of a simple dataset using reusable components.
 
-# To Run it
-After downloading the files, run npm install.
+You can search through a catalogue of "Spaceships" with filters of text input(name) and/or by object properties(engine, location). The filtering is done in the front end, by javascript functions.  Each spaceship card component has a star button that allows the user to save <i>spaceships</i> (objects) in a different component. This allows multiple searches under different criteria, showcasing simple state/context managment.
+<br>Responsive design with Bootstrap. New rows are added (or removed) dynamically, according to the number of "spaceship components" that need to be rendered.
+
+# How To Run
+After downloading the files, run __npm install__ in the root folder. Then run __npm start__
 
 ## Available Scripts
 
